@@ -220,7 +220,7 @@ try:
                 
                 try:
                     # Usamos 127.0.0.1 para evitar problemas de resolución de nombres en Windows
-                    response = requests.post("http://127.0.0.1:8000/predict", json=payload, timeout=5)
+                    response = requests.post("http://api:8000/predict", json=payload, timeout=5)
                     if response.status_code == 200:
                         res = response.json()["predictions"][0]
                         with col_out:
