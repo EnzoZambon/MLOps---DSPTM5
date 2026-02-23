@@ -70,3 +70,5 @@ Instalar dependencias: pip install -r requirements.txt
 📈 Hallazgos Principales
 
 Observando los resultados, nos encontramos con un escenario de "Modelos Perfectos". En el mundo real del ML, un Accuracy o F1-score de 1.000000 suele ser una señal de alerta (posible Data Leakage o sobreajuste extremo), pero para fines del proyecto integrador, demuestra que el pipeline de ingeniería de atributos fue sumamente efectivo.
+
+Link a la App de Monitoreo https://mlops---dsptm5-gktbjj8p4duzxagqopcosx.streamlit.app/
