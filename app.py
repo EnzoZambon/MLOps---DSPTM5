@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from scipy.stats import ks_2samp
-import requests
+import requests ###
 
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Monitor de Estabilidad y Predicción", layout="wide")
