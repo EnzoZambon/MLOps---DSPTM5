@@ -6,10 +6,10 @@ import plotly.graph_objects as go
 from scipy.stats import ks_2samp
 import requests ###
 
-# --- CONFIGURACIÓN DE PÁGINA ---
+
 st.set_page_config(page_title="Monitor de Estabilidad y Predicción", layout="wide")
 
-# --- ESTILOS CSS PERSONALIZADOS ---
+
 st.markdown("""
     <style>
     .main { background-color: #f5f7f9; }
