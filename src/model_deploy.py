@@ -83,7 +83,7 @@ def predict(input_data: PredictionInput):
         print(f"Error en predicción: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
-# 5. Endpoint de salud
+
 @app.get("/")
 def home():
     return {
